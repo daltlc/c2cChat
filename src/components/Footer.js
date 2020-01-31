@@ -21,12 +21,12 @@ class Footer extends React.Component {
         >
           <p {...css(styles.buttonText)}>Users</p>
         </Link>
-        <Link
+        {/* <Link
           to='/profile'
           {...css(styles.button)}
         >
           <p {...css(styles.buttonText)}>Profile</p>
-        </Link>
+        </Link> */}
       </div>
     )
   }

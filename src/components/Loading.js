@@ -8,11 +8,11 @@ const chatLogo = require('../assets/chattlogo.png')
 const Loading = () => (
   <div {...css(styles.container)}>
     <div {...css(styles.logoWrapper)}>
-      <img
+      {/* <img
         alt='Logo'
         {...css(styles.logo)}
         src={chatLogo}
-      />
+      /> */}
     </div>
   </div>
 )
