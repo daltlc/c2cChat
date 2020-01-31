@@ -1,4 +1,4 @@
-![](src/assets/hero1.jpg)
+
 
 ## Chatt
 
@@ -21,9 +21,6 @@ Real-Time Offline Ready Chat App written with GraphQL, AWS AppSync, & AWS Amplif
 - React Apollo
 - Glamor
 
-## Screens
-
-![](src/assets/hero2.jpg)
 
 ## Building the App (automated)
 
