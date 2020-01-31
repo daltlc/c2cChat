@@ -1,6 +1,6 @@
 
 
-## Chatt
+## C2C Chat
 
 Real-Time Offline Ready Chat App written with GraphQL, AWS AppSync, & AWS Amplify
 
