@@ -59,3 +59,8 @@ type Subscription {
   onCreateMessage(messageConversationId: ID!): Message
     @aws_subscribe(mutations: ["createMessage"])
 }
+
+type CoachChat @model @auth(rules: [{allow: groups, groups: ["Coach"]}]){
+  id: ID!
+  teamname: String!
+}

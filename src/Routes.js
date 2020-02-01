@@ -6,6 +6,7 @@ import Conversation from './components/Conversation'
 import Users from './components/Users'
 import Profile from './components/Profile'
 import Footer from './components/Footer'
+import TeamChat from './components/TeamChat'
 
 const Routes = () => (
   <div>
@@ -13,6 +14,7 @@ const Routes = () => (
       <Route path="/" exact component={Conversations} />
       <Route path="/users/" component={Users} />
       <Route path="/profile/" component={Profile} />
+      <Route path="/teamchat/" component={TeamChat}/>
       <Route path="/conversation/:conversationId/:conversationName" component={Conversation} />
       <Route component={() => <p>404 no route found</p>} />
     </Switch>

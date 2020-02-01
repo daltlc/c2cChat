@@ -46,6 +46,7 @@ const routeConfig = {
   }
 }
 
+
 const RouterWithAuth = withAuthenticator(Router, routeConfig)
 
 const AppRouter = () => {

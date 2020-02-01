@@ -11,12 +11,14 @@ class Header extends React.Component {
     return (
       <div {...css(styles.container)}>
         <Link to='/'>
+          
           {/* <img
             alt='Logo'
             {...css(styles.logo)}
             src={chatLogo}
           /> */}
         </Link>
+        <h1>C2C Chat</h1>
       </div>
     )
   }
